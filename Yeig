@@ -1,0 +1,11 @@
+local player = game.Players.LocalPlayer
+
+if player then
+    local tycoon = workspace.Tycoons:FindFirstChild(player.Name)
+    
+    tycoon.Assets.Dropper2.Core.Point1.WorldCFrame = tycoon.Auxiliary.Track.Collector.CFrame
+tycoon.Auxiliary.Dropper1.Core.Point1.WorldCFrame = tycoon.Auxiliary.Track.Collector.CFrame
+tycoon.Assets.Dropper3.Core.Point1.WorldCFrame = tycoon.Auxiliary.Track.Collector.CFrame
+tycoon.Assets.Dropper4.Core.Point1.WorldCFrame = tycoon.Auxiliary.Track.Collector.CFrame
+tycoon.Assets.Dropper5.Core.Point1.WorldCFrame = tycoon.Auxiliary.Track.Collector.CFrame
+end
